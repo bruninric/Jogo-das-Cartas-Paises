@@ -13,11 +13,17 @@ Todos os trabalhos contidos neste repositório integram o desenvolvimento do **T
 
 ## Explicações
 
-Linha 15: explicação sobre o Jogo das Cartas - Países e Estados.
+Ao todo, serão explicados 4 códigos:
 
-Linha 59: explicação sobre o Jogo de Xadrez.
+Primeira explicação: sobre o Jogo das Cartas - Países e Estados.
 
-# Análise do Desenvolvimento do Código (Jogo das Cartas - Países e Estados)
+Segunda explicação: sobre o Jogo de Xadrez.
+
+Terceira explicação:
+
+Quarta explicação:
+
+# Primeira explicação: Análise do Desenvolvimento do Código (Jogo das Cartas - Países e Estados)
 
 Este código em C foi desenvolvido para criar um programa interativo que simula dois jogos de cartas distintos: um "Jogo dos Países" e um "Jogo dos Estados". A estrutura do código revela um desenvolvimento modular e incremental.
 
@@ -58,7 +64,7 @@ Este código em C foi desenvolvido para criar um programa interativo que simula 
 Em resumo, o código foi desenvolvido de forma estruturada, começando pela modelagem dos dados, seguido pela implementação da lógica de cada jogo de forma modular, e culminando na criação de uma interface de usuário baseada em menus de texto. A reutilização de conceitos e a adaptação de código entre os dois jogos (Países e Estados) são evidentes, sugerindo um processo de desenvolvimento eficiente. A atenção à validação de entrada e à clareza da interface contribui para a usabilidade do programa.
 
 
-# Simulação de Movimentos de Peças de Xadrez em C (Jogo de Xadrez)
+# Segunda explicação: Simulação de Movimentos de Peças de Xadrez em C (Jogo de Xadrez)
 
 Este código em C foi projetado para simular, de forma simplificada, os movimentos de algumas peças de xadrez: Torre, Bispo, Rainha e Cavalo. O desenvolvimento seguiu uma abordagem estruturada, focada em atender a requisitos específicos de demonstração de diferentes estruturas de controle e saídas de dados.
 
