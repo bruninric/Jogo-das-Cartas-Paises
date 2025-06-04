@@ -6,9 +6,9 @@ Este repositório contém o seguinte arquivo:
 
 ## Descrição
 
-Atividades relacionadas ao desafio **Super Trunfo**.
+Atividade relacionada ao desafio **Super Trunfo**.
 
-Todos os trabalhos contidos neste repositório integram o desenvolvimento do **Trabalho de Conclusão de Curso (TCC).**
+**O trabalho contido neste repositório integra o desenvolvimento do TCC.**
 
 ## Explicação
 
