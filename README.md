@@ -1,11 +1,8 @@
-# Arquivos do TCC
+# Arquivo do TCC
 
-Este repositório contém os seguintes arquivos:
+Este repositório contém o seguinte arquivo:
 
-- Jogo das Cartas - Estados
 - Jogo das Cartas - Países e Estados
-- Jogo de Xadrez
-- Jogo Batalha Naval
 
 ## Descrição
 
