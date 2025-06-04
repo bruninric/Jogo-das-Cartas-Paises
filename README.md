@@ -1,9 +1,8 @@
-# Arquivo do TCC
+# Arquivo Jogo das Cartas - Países
 
 Este repositório contém o seguinte arquivo:
 
 - Jogo das Cartas - Países e Estados
-- Jogo de Xadrez
 
 ## Descrição
 
