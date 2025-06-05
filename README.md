@@ -1,4 +1,4 @@
-# Arquivo Jogo das Cartas - Países
+# Jogo das Cartas - Países
 
 Este repositório contém o seguinte arquivo:
 
