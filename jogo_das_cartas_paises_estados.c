@@ -211,9 +211,9 @@ void compararCartasDoisAtributosPais(const CartaPais *c1, const CartaPais *c2, i
     if (fabs(soma_c1 - soma_c2) < EPSILON) {
         printf("Empate! As somas dos atributos são iguais.\n");
     } else if (soma_c1 > soma_c2) {
-        printf(" %s vence a rodada!\n", c1->nomePais);
+        printf("🏆 %s vence a rodada! 🎉\n", c1->nomePais);
     } else {
-        printf(" %s vence a rodada!\n", c2->nomePais);
+        printf("🏆 %s vence a rodada! 🎉\n", c2->nomePais);
     }
     printf("----------------------------------------------------------\n");
 }
@@ -233,17 +233,17 @@ void iniciarJogoDosPaises(void) {
 }
 
 void exibirRegrasJogoPaises(void) {
-    printf("\n--- REGRAS DO JOGO DOS PAÍSES ---\n");
+    printf("\n📜--- REGRAS DO JOGO DOS PAÍSES ---📜\n");
     printf("Bem-vindo ao Jogo dos Países! O objetivo é comparar duas cartas de países\n");
     printf("e determinar qual delas é a vencedora com base em seus atributos.\n\n");
-    printf("1. CADASTRO DAS CARTAS: \n");
+    printf("1. CADASTRO DAS CARTAS: 📝\n");
     printf("   - Você precisará cadastrar os dados para duas cartas de países.\n");
     printf("   - Para cada país, informe: Nome, População, Área (km²), PIB (em bilhões), Número de Pontos Turísticos.\n");
     printf("   - O sistema calculará: PIB Real e Densidade Demográfica.\n\n");
-    printf("2. ESCOLHA DOS ATRIBUTOS PARA COMPARAÇÃO: \n");
+    printf("2. ESCOLHA DOS ATRIBUTOS PARA COMPARAÇÃO: 📊\n");
     printf("   - Você escolherá DOIS atributos DIFERENTES para a disputa.\n");
     printf("   - Atributos: População, Área, PIB, No de Pontos Turísticos, Densidade Demográfica.\n\n");
-    printf("3. COMO VENCER A RODADA: \n");
+    printf("3. COMO VENCER A RODADA: 🏆\n");
     printf("   - O sistema soma os valores numéricos dos DOIS atributos escolhidos para cada carta.\n");
     printf("   - A CARTA COM A MAIOR SOMA vence.\n\n");
     printf("Divirta-se jogando!\n");
@@ -399,9 +399,9 @@ void compararCartasDoisAtributosEstado(const CartaEstado *c1, const CartaEstado 
     if (fabs(soma_c1 - soma_c2) < EPSILON) {
         printf("Empate! As somas dos atributos são iguais.\n");
     } else if (soma_c1 > soma_c2) {
-        printf("Carta do Estado %s (Cidade: %s) vence a rodada!\n", c1->nome_do_estado, c1->nome_cidade);
+        printf("🏆 Carta do Estado %s (Cidade: %s) vence a rodada! 🎉\n", c1->nome_do_estado, c1->nome_cidade);
     } else {
-        printf("Carta do Estado %s (Cidade: %s) vence a rodada!\n", c2->nome_do_estado, c2->nome_cidade);
+        printf("🏆 Carta do Estado %s (Cidade: %s) vence a rodada! 🎉\n", c2->nome_do_estado, c2->nome_cidade);
     }
     printf("----------------------------------------------------------\n");
 }
@@ -421,7 +421,7 @@ void iniciarJogoDosEstados(void) {
 }
 
 void exibirRegrasJogoEstados(void) {
-    printf("\n--- REGRAS DO JOGO DOS ESTADOS ---\n");
+    printf("\n📜--- REGRAS DO JOGO DOS ESTADOS ---📜\n");
     printf("Bem-vindo ao Jogo dos Estados! O objetivo é comparar duas cartas de estados,\n");
     printf("focando nos dados de suas cidades principais e alguns dados estaduais (como o PIB),\n");
     printf("para determinar qual carta é a vencedora.\n\n");
@@ -441,7 +441,7 @@ void exibirRegrasJogoEstados(void) {
     printf("     * PIB Real do Estado (o valor absoluto do PIB informado)\n");
     printf("     * Densidade Demográfica da Cidade (População da Cidade / Área da Cidade)\n\n");
 
-    printf("2. ESCOLHA DOS ATRIBUTOS PARA COMPARAÇÃO: \n");
+    printf("2. ESCOLHA DOS ATRIBUTOS PARA COMPARAÇÃO: 📊\n");
     printf("   - Após cadastrar as cartas, você escolherá DOIS atributos DIFERENTES para a disputa.\n");
     printf("   - Os atributos disponíveis são:\n");
     printf("     1. População da Cidade\n");
@@ -452,12 +452,12 @@ void exibirRegrasJogoEstados(void) {
     printf("   - Primeiro, você escolhe o primeiro atributo.\n");
     printf("   - Em seguida, escolhe o segundo atributo, que não pode ser o mesmo que o primeiro.\n\n");
 
-    printf("3. COMO VENCER A RODADA: \n");
+    printf("3. COMO VENCER A RODADA: 🏆\n");
     printf("   - Para determinar o vencedor, o sistema soma os valores numéricos dos DOIS atributos\n");
     printf("     escolhidos para cada uma das cartas.\n");
     printf("   - A CARTA COM A MAIOR SOMA dos valores desses dois atributos vence a rodada.\n\n");
 
-    printf("4. EMPATE: \n");
+    printf("4. EMPATE: 🤝\n");
     printf("   - Se a soma dos valores dos atributos escolhidos for EXATAMENTE IGUAL para ambas as cartas,\n");
     printf("     a rodada termina em EMPATE.\n\n");
 
@@ -505,12 +505,12 @@ int main() {
 
     do {
         printf("\n======= MENU PRINCIPAL =======\n");
-        printf("Bem-vindo(a)!\n");
+        printf("🌍 Bem-vindo(a)! 🌏\n");
         printf("===================================\n");
-        printf("1. JOGO DOS PAÍSES\n");
-        printf("2. JOGO DOS ESTADOS\n");
-        printf("3. Ver Regras\n");
-        printf("4. Sair\n");
+        printf("1. JOGO DOS PAÍSES 🚀\n");
+        printf("2. JOGO DOS ESTADOS 🗺️\n");
+        printf("3. Ver Regras 📜\n");
+        printf("4. Sair 👋\n");
         printf("===================================\n");
         printf("Escolha uma opção (1-4): ");
 
@@ -532,7 +532,7 @@ int main() {
                 gerenciarExibicaoDeRegras();
                 break;
             case 4:
-                printf("\nSaindo do jogo... Até a próxima!\n");
+                printf("\nSaindo do jogo... Até a próxima! 😊\n");
                 break;
             default:
                 printf("\nOpção inválida. Por favor, escolha uma das opções do menu (1-4).\n");
